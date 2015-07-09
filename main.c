@@ -7,8 +7,9 @@
 
 
 #include <xc.h>
+#include <stdint.h>
 
-int main(void) 
+int32_t main(void) 
 {
     while(1);
     return 0;
