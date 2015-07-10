@@ -11,6 +11,9 @@
 
 int32_t main(void) 
 {
+    LATBbits.LATB0 = 0;
+    TRISBbits.TRISB0 = 0;
+    
     while(1);
     return 0;
 }
